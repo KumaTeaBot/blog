@@ -1,2 +1,2 @@
-# blog
-My very first blog hosted on GitHub Pages
+# KumaTea's Blog
+## [blog.kmtea.eu](https://blog.kmtea.eu)
