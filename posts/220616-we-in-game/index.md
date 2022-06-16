@@ -2,7 +2,7 @@
 title: "Wallpaper Engine 刷时长"
 description: "保持 Wallpaper Engine 的 Steam 游戏中状态"
 date: "2022-06-16 20:00:00+0800"
-image: "cover.jpg"
+image: "img/cover.jpg"
 categories:
   - Guide
 tags:
@@ -32,8 +32,8 @@ tags:
 
 我把参数加粗放在这里：
 
-<h1><code>-steamtrackhours</code></h1>
+# `-steamtrackhours`
 
 ---
 
-原帖链接：[https://steamcommunity.com/app/431960/discussions/2/3418809548706728583/]
+原帖链接：[社区帖子](https://steamcommunity.com/app/431960/discussions/2/3418809548706728583/)
