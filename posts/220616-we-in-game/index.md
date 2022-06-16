@@ -36,4 +36,4 @@ tags:
 
 ---
 
-原帖链接：https://steamcommunity.com/app/431960/discussions/2/3418809548706728583/
+原帖链接：[https://steamcommunity.com/app/431960/discussions/2/3418809548706728583/]

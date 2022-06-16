@@ -12,7 +12,7 @@ sed -i 's/themes//g' .gitignore
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
 
 echo "preparing media for posts..."
-# python3 scripts/media.py
+python3 scripts/media.py
 
 echo "moving posts..."
 mkdir -p content
