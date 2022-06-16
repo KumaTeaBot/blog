@@ -32,7 +32,7 @@ tags:
 
 我把参数加粗放在这里：
 
-# `-steamtrackhours`
+<div style="text-align: center"><h1><code>-steamtrackhours</code></h1></div>
 
 ---
 

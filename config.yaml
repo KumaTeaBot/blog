@@ -15,10 +15,10 @@ title: 酷玛阁
 #    weight: 2
 
 # Change it to your Disqus shortname before using
-# disqusShortname: hugo-theme-stack
+disqusShortname: kumatea
 
 # GA Tracking ID
-# googleAnalytics:
+googleAnalytics: G-P86D5805EG
 
 # Theme i18n support
 # Available values: ar, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -64,7 +64,15 @@ params:
       default: Licensed under CC BY-NC-SA 4.0
 
   comments:
-    enabled: false
+      enabled: true
+      provider: disqus
+
+      disqusjs:
+          shortname:
+          apiUrl:
+          apiKey:
+          admin:
+          adminLabel:
 
   widgets:
     homepage:
@@ -142,7 +150,7 @@ markup:
   goldmark:
     renderer:
       ## Set to true if you have HTML content inside Markdown
-      unsafe: false
+      unsafe: true
   tableOfContents:
     endLevel: 4
     ordered: true
