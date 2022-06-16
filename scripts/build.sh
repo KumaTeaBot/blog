@@ -14,6 +14,9 @@ git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
 echo "preparing media for posts..."
 python3 scripts/media.py
 
+echo "adding slugs..."
+python3 scripts/slug.py
+
 echo "moving posts..."
 mkdir -p content
 cp -a posts content/
