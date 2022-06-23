@@ -3,6 +3,10 @@
 
 set -e
 
+echo "extracting hugo directory..."
+mv hugo/* .
+rm -rf hugo
+
 echo "preparing deps..."
 sudo bash scripts/deps.sh
 

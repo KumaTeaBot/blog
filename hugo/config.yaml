@@ -2,7 +2,7 @@ baseurl: https://blog.kmtea.eu
 languageCode: zh-cn
 theme: stack
 paginate: 5
-title: 酷玛阁
+title: "酷玛阁 | KumaTea's Blog"
 
 #languages:
 #  zh-cn:
