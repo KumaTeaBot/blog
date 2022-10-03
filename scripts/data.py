@@ -8,4 +8,7 @@ posts = {
     '220710': {
         'name': 'pi-rhel'
     },
+    '221003': {
+        'name': 'glibc-openwrt'
+    },
 }
