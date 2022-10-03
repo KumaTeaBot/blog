@@ -1,8 +1,8 @@
 ---
-title: "向 OpenWrt 添加 glibc"
-description: "向 OpenWrt (及其他使用 musl 等 C 运行库的发行版) 添加 glibc"
-date: "2022-10-03 15:00:00+0800"
-image: "img/cover.jpg"
+title: "Add glibc to OpenWrt"
+description: "Add glibc to OpenWrt (and other distros using musl)"
+date: "2022-10-03 16:30:00+0800"
+image: "/p/221003-glibc-openwrt/img/cover.jpg"
 categories:
   - Guide
 tags:
@@ -12,40 +12,39 @@ tags:
   - musl
 ---
 
-# 向 OpenWrt 添加 glibc
+# Add glibc to OpenWrt
 
-> [English version](/p/221003-glibc-openwrt-en/)
+> [中文版](/p/221003-glibc-openwrt/)
 
-今天试图在 OpenWrt 软路由上使用
-[BestTrace](https://www.ipip.net/download.html) 替换 `traceroute`，
-但下载完成后运行却出现了错误：
+I'm trying to replace `traceroute` with a tool called
+[BestTrace](https://www.ipip.net/download.html),
+but an error was raised during execution:
 
 > Failed to execute process './besttrace'. Reason:
 > 
 > The file './besttrace' does not exist or could not be executed.
 
-![Error](img/01-error.jpg)
+![Error](/p/221003-glibc-openwrt/img/01-error.jpg)
 
-使用 `file` 检查文件：
+Check the executable with `file`:
 
 > besttrace: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, **interpreter /lib64/ld-linux-x86-64.so.2**, Go BuildID=1c1dnBC1TKT-wnm6J_Ek/Csaj2Jrm0niZmmJ8paMZ/_hoguDO-XKYO0IWEnHWa/H2kGhpM-teit7NepUJE5, not stripped
 
-注意到 `interpreter /lib64/ld-linux-x86-64.so.2`，
-说明架构 `x86-64` 无误，但缺少了 `glibc` 运行库。
+Noticed that, `interpreter /lib64/ld-linux-x86-64.so.2`,
+which means the arch `x86-64` is correct, but `glibc` runtime is missing.
 
-自 2015 以后，[为了嵌入式设备的体积及运行速度考虑](https://news.ycombinator.com/item?id=9941076) ，
-OpenWrt 使用 [musl](https://musl.libc.org/) 作为 C 运行库。
+Since 2015, [for consideration of the space and speed of embedded devices](https://news.ycombinator.com/item?id=9941076),
+OpenWrt has swutched to [musl](https://musl.libc.org/) from uClibc as C library.
 
-然而现在大部分软件都使用 `glibc`，在 OpenWrt 上就不能运行了。
+Whereas nowadays most software are using `glibc`, which cannot be run on OpenWrt.
 
-## 解决方案
+## Solution
 
-只要把 `ld-linux-x86-64.so.2` 复制进来就好了！
+Just copy `ld-linux-x86-64.so.2` here!
 
 ### Docker
 
-如果安装了 Docker
-可以使用如下脚本：
+If Docker is installed:
 
 ```shell
 #!/usr/bin/env bash
@@ -77,11 +76,12 @@ docker rm   glibc
 docker rmi  ubuntu:jammy
 ```
 
-你也可以换用 Debian 或者任意你喜欢的发行版
+This means you can always get the latest libs,
+and switch to other distros you like.
 
-### 直装
+### Directly
 
-> 注：于 2022-10-03 打包的 glibc v2.35，可能过时
+> Note: glibc v2.35, packed on 2022-10-03, could be outdated.
 
 ```shell
 #!/usr/bin/env bash
@@ -110,6 +110,6 @@ rm -f glibc.tar.gz
 
 ---
 
-操作完成后程序已可成功运行。
+After these instructions the program can be run successfully.
 
-![Done](img/02-done.jpg)
+![Done](/p/221003-glibc-openwrt/img/02-done.jpg)
