@@ -11,4 +11,7 @@ posts = {
     '221003': {
         'name': 'glibc-openwrt'
     },
+    '221227': {
+        'name': 'pve-openwrt'
+    },
 }
