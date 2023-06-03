@@ -87,7 +87,7 @@ tags:
 
 1. 按一下回车激活 Console <br>
   ![Activate console](img/15-console.png)
-2. 此时，原先的 `overlay` 会被自动挂在为 `/mnt/sda1` (有时是 `sdb1`) <br>
+2. 此时，原先的 `overlay` 会被自动挂载为 `/mnt/sda1` (有时是 `sdb1`) <br>
   我们可以发现，该目录下 `etc` 内含有一 `.extroot-uuid` 文件。 <br>
   ![Cleanup](img/16-cleanup.jpg)
   这一文件会误导系统读取正确的 UUID 并导致无法挂载！ <br>
@@ -102,8 +102,6 @@ tags:
 4. 把修改的 `/etc/config/fstab` 同步到配置分区 <br>
   `cp -a /etc/config/fstab /mnt/sda1/upper/etc/config/`
   ![Sync config](img/19-sync-fstab.jpg)
-
----
 
 ## 完成
 
