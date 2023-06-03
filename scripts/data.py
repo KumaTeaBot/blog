@@ -14,4 +14,7 @@ posts = {
     '221227': {
         'name': 'pve-openwrt'
     },
+    '230603': {
+        'name': 'bank-cards'
+    },
 }

@@ -6,3 +6,4 @@ resources
 themes
 .hugo_build.lock
 media.zip
+*.jpg
