@@ -14,11 +14,11 @@ menu:
             icon: user
 ---
 
-## 关于
+# 关于酷玛阁
 
-<h3>Source: <a href="https://github.com/KumaTea/blog">KumaTea/blog</a></h3>
+## Source: [KumaTea/blog](https://github.com/KumaTea/blog)
 
-### 更新信息
+## 更新信息
 
 > 所有时间均为 UTC+8
 

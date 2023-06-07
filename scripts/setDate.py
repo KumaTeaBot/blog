@@ -10,11 +10,11 @@ logging.basicConfig(level=logging.INFO)
 
 pwd = os.getcwd()
 posts_path = os.path.join(pwd, 'posts')
-about_page_path = 'content/pages/about/index.md'
-
+# about_page_path = 'content/pages/about/index.md'
+about_page_path = os.path.join(pwd, 'content', 'pages', 'about', 'index.md')
 git_date_fmt = '%a %b %d %H:%M:%S %Y %z'
 preferred_date_fmt = '%Y-%m-%d %H:%M:%S'
-metadata_date_fmt = '%Y-%m-%dT%H:%M:%S%z'
+metadata_date_fmt = '%Y-%m-%d %H:%M:%S%z'
 
 
 def set_about_info():
@@ -83,7 +83,7 @@ def set_post_modified_date(post_path):
                 break
         if not date_info_line:
             raise RuntimeError(f'[date]\t{post_path} date info not found')
-        post_text = post_text.replace(date_info_line, date_info_line + f'\nlastmod: {post_date_str}')
+        post_text = post_text.replace(date_info_line, date_info_line + f'\nlastmod: "{post_date_str}"')
         with open(post_text_path, 'w', encoding='utf-8') as f:
             f.write(post_text)
     else:
