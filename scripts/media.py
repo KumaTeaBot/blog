@@ -23,7 +23,7 @@ def get_media(post_id):
     with open(temp_media_path, 'wb') as f:
         r = requests.get(f'https://github.com/{repo}/releases/download/{post_id}/{media_file}')
         f.write(r.content)
-    return logging.info(f'post {post_id} downloaded')
+    return logging.info(f'[media]\tpost {post_id} downloaded')
 
 
 def unzip_media(post_id):
@@ -32,7 +32,7 @@ def unzip_media(post_id):
     post_path = os.path.join(pwd, 'posts', post_name)
     os.makedirs(post_path, exist_ok=True)
     subprocess.run(['unzip', temp_media_path, '-d', post_path])
-    return logging.info(f'post {post_id} unzipped')
+    return logging.info(f'[media]\tpost {post_id} unzipped')
 
 
 def gen_uuid(length=4):
@@ -89,18 +89,18 @@ def get_external_media(post_id):
             for i, line in enumerate(lines):
                 if media in line:
                     lines[i] = line.replace(media, f'img/{media_filename}')
-            logging.info(f'external {media} downloaded')
+            logging.info(f'[media]\texternal {media} downloaded')
 
     if edited:
         with open(post_file, 'w', encoding='utf-8') as f:
             f.writelines(lines)
-        return logging.info(f'post {post_id} media replaced')
+        return logging.info(f'[media]\tpost {post_id} media replaced')
     else:
         return None
 
 
 if __name__ == '__main__':
-    logging.info('creating temp directory')
+    logging.info('[media]\tcreating temp directory')
     os.makedirs(temp_path, exist_ok=True)
     for pid in posts:
         get_media(pid)
@@ -108,4 +108,4 @@ if __name__ == '__main__':
         get_external_media(pid)
 
     subprocess.run(['rm', '-rvf', temp_path])
-    logging.info('done')
+    logging.info('[media]\tdone')

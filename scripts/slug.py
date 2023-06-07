@@ -15,7 +15,7 @@ def add_slug(name):
     lines.insert(2, slug_line)  # after title
     with open(os.path.join(posts_path, name, 'index.md'), 'w', encoding='utf-8') as f:
         f.writelines(lines)
-    return logging.info(f'{name} slug added')
+    return logging.info(f'[slug]\t{name} slug added')
 
 
 if __name__ == '__main__':

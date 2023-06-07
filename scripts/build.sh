@@ -15,6 +15,9 @@ mkdir -p themes
 sed -i 's/themes//g' .gitignore
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
 
+echo "setting post modified date..."
+python3 scripts/setDate.py
+
 echo "preparing media for posts..."
 python3 scripts/media.py
 
