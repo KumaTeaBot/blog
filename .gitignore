@@ -7,3 +7,4 @@ themes
 .hugo_build.lock
 media.zip
 *.jpg
+__pycache__

@@ -97,7 +97,7 @@ Oracle Linux 的根文件系统 (rootfs) 是 `btrfs` ，
 ###扩展分区
 
 解压缩后的固件大小约为 3.89GB ，装完了剩下大约300MB。
-这点地方塞牙缝 (`dnf uodate`) 都不够，先要用 `parted` 扩展分区。
+这点地方塞牙缝 (`dnf update`) 都不够，先要用 `parted` 扩展分区。
 
 没自带，先安装：
 

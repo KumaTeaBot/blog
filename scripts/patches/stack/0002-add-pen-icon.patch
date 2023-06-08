@@ -1,0 +1,13 @@
+diff --git a/assets/icons/pen.svg b/assets/icons/pen.svg
+new file mode 100644
+index 0000000..85d9d38
+--- /dev/null
++++ b/assets/icons/pen.svg
+@@ -0,0 +1,7 @@
++<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pen" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
++  <path stroke="none" d="M0 0h24v24H0z"/>
++  <path d="M4 20h3l12 -12a1.5 1.5 0 0 0 -3 -3l-12 12v3" />
++  <line x1="15.25" y1="6.75" x2="17.25" y2="8.75" />
++  <circle cx="18" cy="18" r="4" />
++  <path d="M18 16.496v1.504l1 1" />
++</svg>

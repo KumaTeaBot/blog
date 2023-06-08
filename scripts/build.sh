@@ -7,13 +7,18 @@ echo "extracting hugo directory..."
 mv hugo/* .
 rm -rf hugo
 
-echo "preparing deps..."
-sudo bash scripts/deps.sh
+# echo "preparing deps..."
+# sudo bash scripts/deps.sh
 
-echo "cloning submodule..."
+echo "add theme..."
 mkdir -p themes
 sed -i 's/themes//g' .gitignore
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
+# git -C themes/stack apply scripts/patches/*.patch
+# git -C themes/stack apply ../../scripts/patches/*.patch
+cd themes/stack
+git apply ../../scripts/patches/stack/*.patch
+cd ../../
 
 echo "setting post modified date..."
 python3 scripts/setDate.py

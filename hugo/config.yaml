@@ -45,8 +45,10 @@ params:
 
   dateFormat:
     date: 2006-01-02
-    publishDate: 2006-01-02
-    lastUpdated: 2006-01-02 15:04:05
+    published: 2006-01-02
+    lastUpdated: 2006-01-02
+    lastUpdatedShort: 01-02
+    lastUpdatedTime: 01-02 15:04
     expiryDate: 2006-01-02
 
   sidebar:
