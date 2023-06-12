@@ -16,6 +16,8 @@ for i in os.listdir(posts_path):
     # 220531-hello-world
     date = i.split('-')[0]
     title = i[len(date) + 1:]
+    if date in all_posts:
+        title = min(title, all_posts[date]['name'], key=len)
     all_posts[date] = {
         'name': title
     }
