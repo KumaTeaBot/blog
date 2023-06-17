@@ -84,3 +84,4 @@ tags:
 ## 参考资料
 
 * [中国银行绑定 Apple Pay 失败的解决方法](https://www.jimmytian.com/archives/solve-apple-pay-cant-add-boc-card.html)
+* [钱包解绑银行卡后无法再重新绑定，提示设备限制](https://discussionschinese.apple.com/thread/253116288?answerId=255886195322#255886195322)
