@@ -17,6 +17,16 @@ tags:
 * 为了防止阅读疲劳把XX卡的卡字省略掉了
 * 图片下方的数字是 Tweet ID
 
+## 汇总
+
+该表格为现有在用卡统计，非办卡统计；
+包含未提及卡，不包含已销户卡。
+
+| 卡组织 | 银联 | VISA | MC | AE |
+|-----|----|------|----|----|
+| 借记卡 | 10 |      | 1  | 3  |
+| 信用卡 | 1  | 1    |    |    |
+
 ## 2020
 
 ### 招商银行 - Young
@@ -85,7 +95,7 @@ tags:
 
 ![1596406571638362112](https://pbs.twimg.com/media/FieTT_takAI4sMJ?format=jpg&name=4096x4096)
 
-* 卡组织：MasterCard
+* 卡组织：Mastercard
 * 分类：借记卡
 * 等级：World
 * 途径：网申
@@ -197,6 +207,20 @@ tags:
 
 * 卡组织：银联
 * 分类：信用卡
+* 等级：金卡
+* 途径：网申
+* 现状：在用
+
+### 中信银行 - 运通
+
+> 金卡借记卡
+> 
+> [介绍页](https://mp.weixin.qq.com/s/M41ymLbZ6keXToz0nXjJ8w)
+
+![1670009918416646146](https://pbs.twimg.com/media/Fy0RKqVaAAAmLks?format=jpg&name=4096x4096)
+
+* 卡组织：American Express
+* 分类：借记卡
 * 等级：金卡
 * 途径：网申
 * 现状：在用
