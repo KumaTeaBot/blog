@@ -86,7 +86,7 @@ tags:
 ## 恢复配置
 
 1. 按一下回车激活 Console <br>
-  ![Activate console](img/15-console.png)
+  ![Activate console](img/15-console.jpg)
 2. 此时，原先的 `overlay` 会被自动挂载为 `/mnt/sda1` (有时是 `sdb1`) <br>
   我们可以发现，该目录下 `etc` 内含有一 `.extroot-uuid` 文件。 <br>
   ![Cleanup](img/16-cleanup.jpg)
