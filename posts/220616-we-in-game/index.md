@@ -1,17 +1,4 @@
----
-title: "Wallpaper Engine 刷时长"
-description: "保持 Wallpaper Engine 的 Steam 游戏中状态"
-date: "2022-06-16 20:00:00+0800"
-image: "img/cover.jpg"
-categories:
-  - Guide
-tags:
-  - Guide
-  - Steam
-  - Wallpaper Engine
----
-
-# Wallpaper Engine 游戏中
+# Wallpaper Engine 刷时长
 
 我一直是个游戏时长爱好者，喜欢看自己主页上游戏时间一点点多起来（哪怕没有真的在玩）。
 

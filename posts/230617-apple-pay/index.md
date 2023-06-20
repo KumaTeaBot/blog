@@ -1,21 +1,4 @@
----
-title: "Apple Pay 绑卡失败原因速查"
-description: "Apple Pay 绑卡失败的原因分析与疑难解答"
-date: "2023-06-17 15:00:00+0800"
-image: "img/err-invalid.jpg"
-categories:
-  - Guide
-  - Troubleshoot
-tags:
-  - Bank
-  - Cards
-  - Guide
-  - Troubleshoot
-  - Apple
-  - Apple Pay
----
-
-# Apple Pay 绑卡失败可能原因
+# Apple Pay 绑卡失败原因速查
 
 先上目前绑卡截图镇楼
 
@@ -23,7 +6,7 @@ tags:
 
 ## 常见错误
 
-### 您的发卡机构尚未提供对该卡的支持
+### 你的发卡机构尚不支持此卡片
 
 > Your issuer does not yet offer support for this card
 

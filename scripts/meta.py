@@ -54,7 +54,23 @@ def set_about_info():
     with open(about_page_path, 'w', encoding='utf-8') as f:
         f.write(about_page)
 
-    return logging.info('[date]\tset about info')
+    return logging.info('[meta]\tset about info')
+
+
+def add_metadata_to_post(post_path):
+    if os.path.isfile(os.path.join(posts_path, post_path, 'meta.md')):
+        with open(os.path.join(posts_path, post_path, 'index.md')) as f:
+            post_text = f.read()
+        with open(os.path.join(posts_path, post_path, 'meta.md')) as f:
+            meta_text = f.read()
+        while meta_text.endswith('\n'):
+            meta_text = meta_text[:-1]
+        post_text = meta_text + '\n\n' + post_text
+        with open(os.path.join(posts_path, post_path, 'index.md'), 'w') as f:
+            f.write(post_text)
+        return logging.info(f'[meta]\t{post_path} add metadata')
+    else:
+        return None
 
 
 def set_post_modified_date(post_path):
@@ -68,6 +84,7 @@ def set_post_modified_date(post_path):
     commit_date = datetime.strptime(
         git_commit_date, git_date_fmt).astimezone(timezone(timedelta(hours=8)))
 
+    add_metadata_to_post(post_path)
     if post_date.day != commit_date.day or post_date.month != commit_date.month or post_date.year != commit_date.year:
         logging.info(f'[date]\t{post_path} modified date changed')
         # 2023-06-03T15:00:00+0800

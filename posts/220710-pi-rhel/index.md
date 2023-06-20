@@ -1,16 +1,3 @@
----
-title: "树莓派安装 RHEL"
-description: "如何在树莓派上安装红帽 Linux"
-date: "2022-07-10 04:00:00+0800"
-image: "img/cover.jpg"
-categories:
-  - Guide
-tags:
-  - Guide
-  - Raspberry Pi
-  - RHEL
----
-
 # 树莓派安装 RHEL
 
 > This tutorial is [originally written in English here](https://github.com/KumaTea/pi-rhel)

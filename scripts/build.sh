@@ -21,7 +21,7 @@ git apply ../../scripts/patches/stack/*.patch
 cd ../../
 
 echo "setting post modified date..."
-python3 scripts/setDate.py
+python3 scripts/meta.py
 
 echo "preparing media for posts..."
 python3 scripts/media.py
