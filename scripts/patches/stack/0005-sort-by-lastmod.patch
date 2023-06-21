@@ -1,0 +1,21 @@
+diff --git a/layouts/index.html b/layouts/index.html
+index 0cd0b88..5066a2a 100644
+--- a/layouts/index.html
++++ b/layouts/index.html
+@@ -5,7 +5,8 @@
+     {{ $pag := .Paginate ($filtered) }}
+
+     <section class="article-list">
+-        {{ range $index, $element := $pag.Pages }}
++        {{ $sortedPages := partial "sort-pages.html" $pag.Pages }}
++        {{ range $index, $element := $sortedPages }}
+             {{ partial "article-list/default" . }}
+         {{ end }}
+     </section>
+@@ -16,4 +17,4 @@
+
+ {{ define "right-sidebar" }}
+     {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+-{{ end }}
+\ No newline at end of file
++{{ end }}

@@ -1,0 +1,29 @@
+diff --git a/layouts/partials/sort-pages.html b/layouts/partials/sort-pages.html
+new file mode 100644
+index 0000000..ef6df20
+--- /dev/null
++++ b/layouts/partials/sort-pages.html
+@@ -0,0 +1,23 @@
++{{- $pagesOriginal := . -}}
++{{- $pagesOriginal = $pagesOriginal.ByLastmod -}}
++{{- $len := len $pagesOriginal -}}
++{{- $pagesAscending := slice -}}
++{{- $pagesTemp := slice -}}
++
++{{- $pagesTemp = $pagesTemp | append (index $pagesOriginal 0) -}}
++{{- range seq 0 (sub $len 2) -}}
++  {{- if ne (index $pagesOriginal (add . 1)).Lastmod (index $pagesOriginal .).Lastmod -}}
++    {{- $pagesTemp = sort $pagesTemp "Date" "asc" -}}
++    {{- $pagesAscending = $pagesAscending | append $pagesTemp -}}
++    {{- $pagesTemp = slice -}}
++  {{- end -}}
++  {{- $pagesTemp = $pagesTemp | append (index $pagesOriginal (add . 1)) -}}
++{{- end -}}
++
++{{- if gt (len $pagesTemp) 0 -}}
++  {{- $pagesTemp = sort $pagesTemp "Date" "asc" -}}
++  {{- $pagesAscending = $pagesAscending | append $pagesTemp -}}
++{{- end -}}
++
++{{- $pagesDescending := $pagesAscending.Reverse -}}
++{{- return $pagesDescending -}}
