@@ -18,6 +18,8 @@ menu:
 
 ## Source: [KumaTea/blog](https://github.com/KumaTea/blog)
 
+* RSS: https://blog.kmtea.eu/posts/index.xml
+
 ## 更新信息
 
 > 所有时间均为 UTC+8
