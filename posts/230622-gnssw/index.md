@@ -727,3 +727,62 @@
 > #蝈蝻收收味 052
 >
 > 为什么我就遇不到那种阳光帅气，而且晚上会爬你床上要你给他嗦牛子的室友
+
+
+## 脚本
+
+为方便从推文获取存档，我写了个脚本，节选如下：
+
+```python
+def quotize(text):
+    text = text.replace('\n\n', '\n　\n')
+    new = []
+    for l in text.splitlines():
+        if l.startswith('>'):
+            new.append('> ' + l)
+        else:
+            new.append('> ' + l + '\n>')
+    new[-1] = new[-1].replace('\n>', '')
+    return '\n'.join(new)
+
+
+def get_pure_text(tweet):
+    text = tweet.full_text
+    if 'urls' in tweet.entities:
+        for i in tweet.entities['urls']:
+            text = text.replace(' ' + i['url'], '')
+    if 'media' in tweet.entities:
+        for j in tweet.entities['media']:
+            text = text.replace(' ' + j['url'], '')
+    return text
+
+
+def gen_quoted(tweet_id):
+    # print('now:', tweet_id)
+    tweet = twi.get_status(tweet_id, tweet_mode='extended')
+    text = get_pure_text(tweet)
+    if 'media' in tweet.entities:
+        for j in tweet.entities['media']:
+            text += '\n![]({})'.format(j['media_url_https'])
+    
+    if hasattr(tweet, 'quoted_status_id'):
+        q = gen_quoted(tweet.quoted_status_id)
+        text += '\n' + q
+    
+    q_text = quotize(text)
+    return q_text
+
+
+def gnssw(tweet_id):
+    text = ''
+    tweet = twi.get_status(tweet_id, tweet_mode='extended')
+    if '#蝈蝻收收味' in tweet.full_text:
+        i = len('#蝈蝻收收味') + tweet.full_text.index('#蝈蝻收收味') + 1
+        n = tweet.full_text[i:i+3]
+        text = f'# [{n}](https://twitter.com/{tweet.user.screen_name}/status/{tweet.id})\n\n'
+    c = tweet.created_at.astimezone(timezone(timedelta(hours=8)))
+    text += c.strftime('%Y-%m-%d') + '\n\n'
+    text += gen_quoted(tweet_id)
+    text += '\n\n'
+    return text
+```
