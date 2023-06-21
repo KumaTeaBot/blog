@@ -8,3 +8,4 @@ themes
 media.zip
 *.jpg
 __pycache__
+.idea
