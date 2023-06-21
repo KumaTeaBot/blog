@@ -42,7 +42,7 @@
 >
 > [介绍页](https://ak.hypergryph.com/special/cmb/)
 
-![1397771013132197889](https://pbs.twimg.com/media/E2XhUwGVIAc3IH2?format=jpg&name=4096x4096)
+![1397771013132197889](https://pbs.twimg.com/media/E2XhUwGVIAc3IH2.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -58,7 +58,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/VSC1UwiY0ET_hjZ8cdC_LA)
 
-![1584155173731303428](https://pbs.twimg.com/media/FfwMu4PakAA_meS?format=jpg&name=4096x4096)
+![1584155173731303428](https://pbs.twimg.com/media/FfwMu4PakAA_meS.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -72,7 +72,7 @@
 >
 > [介绍页](https://m.icbc.com.cn/page/721854058468884500.html)
 
-![1594586679129800704](https://pbs.twimg.com/media/FiEcIXsagAA0cZb?format=jpg&name=4096x4096)
+![1594586679129800704](https://pbs.twimg.com/media/FiEcIXsagAA0cZb.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -86,7 +86,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/FWi1ipqVJ3zQe_bQU7qDIw)
 
-![1596406571638362112](https://pbs.twimg.com/media/FieTT_takAI4sMJ?format=jpg&name=4096x4096)
+![1596406571638362112](https://pbs.twimg.com/media/FieTT_takAI4sMJ.jpg)
 
 * 卡组织：Mastercard
 * 分类：借记卡
@@ -100,7 +100,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/b77jB6411xp0EHkfTj3rSw)
 
-![1601484014342508545](https://pbs.twimg.com/media/FjmdOHkaAAAZiWT?format=jpg&name=4096x4096)
+![1601484014342508545](https://pbs.twimg.com/media/FjmdOHkaAAAZiWT.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -114,7 +114,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/VzOcKbzK8t9295mGkGKj9Q)
 
-![1604371906672480257](https://pbs.twimg.com/media/FkPfuqfaUAAwrN6?format=jpg&name=4096x4096)
+![1604371906672480257](https://pbs.twimg.com/media/FkPfuqfaUAAwrN6.jpg)
 
 * 卡组织：不适用
 * 分类：借记卡
@@ -130,7 +130,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/AElhzWDBxycWqVV3q1mIow)
 
-![1624381848246976512](https://pbs.twimg.com/media/For2rSzaYAAQW5Q?format=jpg&name=4096x4096)
+![1624381848246976512](https://pbs.twimg.com/media/For2rSzaYAAQW5Q.jpg)
 
 * 卡组织：American Express
 * 分类：借记卡
@@ -144,7 +144,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/jCxtroVSV0lLwXx9-CLvFQ)
 
-![1627148237521178627](https://pbs.twimg.com/media/FpTKrnfacAIyqCF?format=jpg&name=4096x4096)
+![1627148237521178627](https://pbs.twimg.com/media/FpTKrnfacAIyqCF.jpg)
 
 * 卡组织：American Express
 * 分类：借记卡
@@ -156,7 +156,7 @@
 
 > 办卡理由：好看
 
-![1629747032079630341](https://pbs.twimg.com/media/Fp4GKo1akAIv1LC?format=jpg&name=4096x4096)
+![1629747032079630341](https://pbs.twimg.com/media/Fp4GKo1akAIv1LC.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -168,7 +168,7 @@
 
 > 大学生信用卡
 
-![1634766718001373185](https://pbs.twimg.com/media/Fq_bqgCaAAABymU?format=jpg&name=4096x4096)
+![1634766718001373185](https://pbs.twimg.com/media/Fq_bqgCaAAABymU.jpg)
 
 * 卡组织：银联 + VISA
 * 分类：信用卡
@@ -182,7 +182,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/Fys02dfBD4fVJqHROKUbbg)
 
-![1662440558978269186](https://pbs.twimg.com/media/FxIs39sakAAfmYf?format=jpg&name=4096x4096)
+![1662440558978269186](https://pbs.twimg.com/media/FxIs39sakAAfmYf.jpg)
 
 * 卡组织：银联
 * 分类：借记卡
@@ -196,7 +196,7 @@
 >
 > [介绍页](https://mp.weixin.qq.com/s/lK5YVyHvWqv94tDLY8zIiQ)
 
-![1664817220600606720](https://pbs.twimg.com/media/FxqecAjaEAEfLgF?format=jpg&name=4096x4096)
+![1664817220600606720](https://pbs.twimg.com/media/FxqecAjaEAEfLgF.jpg)
 
 * 卡组织：银联
 * 分类：信用卡
@@ -210,7 +210,7 @@
 > 
 > [介绍页](https://mp.weixin.qq.com/s/M41ymLbZ6keXToz0nXjJ8w)
 
-![1670009918416646146](https://pbs.twimg.com/media/Fy0RKqVaAAAmLks?format=jpg&name=4096x4096)
+![1670009918416646146](https://pbs.twimg.com/media/Fy0RKqVaAAAmLks.jpg)
 
 * 卡组织：American Express
 * 分类：借记卡

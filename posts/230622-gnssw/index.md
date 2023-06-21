@@ -54,7 +54,7 @@
 > >
 > > 还有一路上看见两三个很可爱的男孩子，直戳xp，就很气，为什么我没长成那个样子 😤
 > >
-> > ![](https://pbs.twimg.com/media/FEZjbE5agAA-4Od?format=jpg&name=small)
+> > ![](https://pbs.twimg.com/media/FEZjbE5agAA-4Od.jpg)
 
 ### [004](https://twitter.com/realKumaTea/status/1489465032580956161)
 
