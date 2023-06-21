@@ -13,12 +13,12 @@ rm -rf hugo
 echo "add theme..."
 mkdir -p themes
 sed -i 's/themes//g' .gitignore
-git submodule add https://github.com/CaiJimmy/hugo-theme-stack themes/stack
+git submodule add https://github.com/KumaTea/hugo-theme-stack themes/stack
 # git -C themes/stack apply scripts/patches/*.patch
 # git -C themes/stack apply ../../scripts/patches/*.patch
-cd themes/stack
-git apply ../../scripts/patches/stack/*.patch
-cd ../../
+# cd themes/stack/
+# git apply ../../scripts/patches/stack/*.patch
+# cd ../../
 
 echo "setting post modified date..."
 python3 scripts/meta.py
