@@ -2,7 +2,7 @@
 
 ## 前言
 
-本教程适用于诺基亚贝尔光猫，型号 `G-140W`
+本教程适用于诺基亚贝尔光猫，型号 `HGW` 或 `G-140W-**`
 
 ![设备信息](img/02-info.jpg)
 
@@ -13,7 +13,7 @@
 * `http://192.168.1.1/getpage.gch?pid=1002&nextpage=tele_sec_tserver_t.gch`
 * `http://192.168.1.1/cgi-bin/telnetenable.cgi?telnetenable=1`
 
-以上地址均为无效。
+以上地址均无效。
 
 ---
 
@@ -32,12 +32,12 @@ F12 大法无效：
 
 ### 1. 登录
 
-![](img/01-login.jpg)
-
 ```
 username: CMCCAdmin
 password: aDm8H%MdA
 ```
+
+![](img/01-login.jpg)
 
 ### 2. 打开如下地址
 
@@ -57,7 +57,7 @@ Ref:
 首先安装依赖
 
 ```bash
-conda install pycryptodome
+conda install pycryptodome || pip install pycryptodome
 ```
 
 随后运行：
