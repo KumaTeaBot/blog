@@ -37,3 +37,8 @@ cp -a posts content/
 echo "adding layouts for search..."
 mkdir -p layouts
 cp -a themes/stack/layouts/page layouts/pages
+
+echo "adding custom html head"
+SRC="./static/head.html"
+DST="./themes/stack/layouts/partials/head/custom.html"
+cat $SRC >> $DST
