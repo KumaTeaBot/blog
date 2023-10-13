@@ -115,6 +115,16 @@ def set_posts_modified_date():
     return logging.info('[date]\tset posts modified date')
 
 
+def remove_meta_file():
+    posts_list = os.listdir(posts_path)
+    for post_path in posts_list:
+        meta_file_path = os.path.join(posts_path, post_path, 'meta.md')
+        if os.path.isfile(meta_file_path):
+            os.remove(meta_file_path)
+            logging.info(f'[meta]\t{post_path} remove meta file')
+
+
 if __name__ == '__main__':
     set_about_info()
     set_posts_modified_date()
+    remove_meta_file()
