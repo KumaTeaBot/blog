@@ -85,3 +85,5 @@ print('解密密码为：', RouterCrypto().decrypt(base64.b64decode(encrypted)).
 ```
 
 ![](img/06-decrypt.jpg)
+
+运行上述代码，即可解密密码 (一般为6位数字)。 
