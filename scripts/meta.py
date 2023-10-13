@@ -89,22 +89,23 @@ def set_post_modified_date(post_path):
         logging.info(f'[date]\t{post_path} modified date changed')
         # 2023-06-03T15:00:00+0800
         post_date_str = commit_date.strftime(metadata_date_fmt)
-
-        with open(post_text_path, 'r', encoding='utf-8') as f:
-            post_text = f.read()
-        # insert `lastmod` next to the `date` line
-        date_info_line = ''
-        for line in post_text.split('\n'):
-            if line.startswith('date:'):
-                date_info_line = line
-                break
-        if not date_info_line:
-            raise RuntimeError(f'[date]\t{post_path} date info not found')
-        post_text = post_text.replace(date_info_line, date_info_line + f'\nlastmod: "{post_date_str}"')
-        with open(post_text_path, 'w', encoding='utf-8') as f:
-            f.write(post_text)
     else:
-        return None
+        # add a same date to the `lastmod` line
+        # to avoid hugo rendering error
+        post_date_str = commit_date.strftime(metadata_date_fmt)
+    with open(post_text_path, 'r', encoding='utf-8') as f:
+        post_text = f.read()
+    # insert `lastmod` next to the `date` line
+    date_info_line = ''
+    for line in post_text.split('\n'):
+        if line.startswith('date:'):
+            date_info_line = line
+            break
+    if not date_info_line:
+        raise RuntimeError(f'[date]\t{post_path} date info not found')
+    post_text = post_text.replace(date_info_line, date_info_line + f'\nlastmod: "{post_date_str}"')
+    with open(post_text_path, 'w', encoding='utf-8') as f:
+        f.write(post_text)
 
 
 def set_posts_modified_date():

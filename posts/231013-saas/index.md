@@ -14,6 +14,9 @@
 [KumaTea/KumaLiteBot](https://github.com/KumaTea/KumaLiteBot)
 这个 repo 里。
 
+目前示例 bot [Kuma 发癫 Bot](https://t.me/KumaLiteBot)
+托管在 Azure 上面。
+
 ## Google Cloud Functions
 
 谷歌的配置过程是最直观、方便、省心的，
