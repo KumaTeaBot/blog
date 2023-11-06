@@ -3,6 +3,12 @@
 做个记录。
 之前在 [知乎](https://www.zhihu.com/question/456851240) 回答过，没人看，搬来这里。
 
+![](img/question.jpg)
+
+* 里程碑：
+  * 整体突破70GB: [4.0](#40)
+  * 本体突破70GB: 
+
 ## 4.x
 
 ### 4.2
@@ -16,6 +22,15 @@
   zh / en / ja / ko:
 
 * 差分包
+
+  | 语言 | 文件名                                            | 大小         |
+  |----|------------------------------------------------|------------|
+  | /  | `game_4.1.0_4.2.0_hdiff_muBp8rd2jUzsaOCg.zip`  | 13.11 GiB  |
+  | zh | `zh-cn_4.1.0_4.2.0_hdiff_nh9PQk51UuE7dmqH.zip` | 448.74 MiB |
+  | en | `en-us_4.1.0_4.2.0_hdiff_mIywVGEvAY9qlkzt.zip` | 586.78 MiB |
+  | ja | `ja-jp_4.1.0_4.2.0_hdiff_oTbeQjA1fMXcZKzm.zip` | 531.08 MiB |
+  | ko | `ko-kr_4.1.0_4.2.0_hdiff_iMCgobAXWZNP3wRy.zip` | 466.59 MiB |
+
 
 ### 4.1
 
@@ -60,6 +75,8 @@
   `game_3.8.0_4.0.0_hdiff_hash.zip`: 31.38 GB
 
   ![](img/4.0-diff.jpg)
+
+## 3.x
 
 ### 3.8
 
