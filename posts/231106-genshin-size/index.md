@@ -15,11 +15,15 @@
 
 * 游戏数据
 
-  `YuanShen_Data`: 
+  `YuanShen_Data`: 67.21 GB (+ 4.18 GB)
+
+  ![82.36 GB (含语音)](img/4.2-data.jpg)
 
 * 语音
 
-  zh / en / ja / ko:
+  zh / en / ja / ko: 11.62 / 13.41 / 15.15 / 11.38 GB (+ 550 ~ 700 MB)
+
+  ![](img/4.2-voice.jpg)
 
 * 差分包
 
