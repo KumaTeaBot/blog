@@ -4,7 +4,7 @@
 
 虽然玩 Linux 很多年了，但一直以来都只是用
 Debian 系的发行版，对其他的没有涉猎。
-最近发现了 LXC 的美妙，于是不妨试试一直没体验过的 RHEL。
+最近发现了 LXC 的美妙之处，于是试了试一直没体验过的 RHEL。
 
 ---
 
@@ -20,7 +20,7 @@ Debian 系的发行版，对其他的没有涉猎。
 我首先尝试的是官方 docker 镜像
 [ubi (Universal Base Image)](https://catalog.redhat.com/software/containers/ubi9/ubi/615bcf606feffc5384e8452e),
 通过 `docker save` 导出后直接导入到 PVE 中。
-但是虽然可以启动，然而缺少太多组件，无法联网等，不具备可用性。
+虽然可以启动，但是缺少太多组件，出现大量恶性问题，如无法联网等，不具备可用性。
 
 然后尝试了去年试过的 [转生大法](https://blog.kmtea.eu/p/220710-pi-rhel/),
 不过 `convert2rhel` 至今不支持 RHEL 9, 因此作罢。
@@ -143,8 +143,6 @@ systemctl disable chronyd.service
 最后和上一步一样打包即可。
 
 ```shell
-yum install -y tar
-
 cd /tmp
 mkdir afs boot dev home lost+found media mnt opt proc root run srv sys tmp
 chmod -R 777 tmp
@@ -161,7 +159,7 @@ tar cvJf rhel-9-minimal_9.3_amd64.tar.xz ./*
 
 有几点提醒：
 
-1. 如果导入后启动了内存占用极低，终端黑屏无显示，可能是误删了 /etc 下账户文件 
+1. 如果导入后启动，内存占用极低，终端黑屏无显示，可能是误删了 /etc 下账户文件 
    可通过 `lxc-start -n <ctid> -F -l DEBUG` 接入调试。
 2. 非常不建议分享你制作的镜像！
    首先 `subscription-manager unregister` 不能保证账户信息完全被抹除，
