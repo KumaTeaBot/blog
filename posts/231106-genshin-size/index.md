@@ -7,9 +7,33 @@
 
 * 里程碑：
   * 整体突破70GB: [4.0](#40)
-  * 本体突破70GB: 
+  * 本体突破70GB: [4.4](#44)
 
 ## 4.x
+
+### 4.4
+
+* 游戏数据
+
+  `YuanShen_Data`: 72.40 GB (+ 4.85 GB)
+
+  ![88.61 GB (含语音)](img/4.4-data.jpg)
+
+* 语音
+
+  zh / en / ja / ko: 12.39 / 14.38 / 16.21 / 12.15 GB (+ 400 ~ 600 MB)
+
+  ![](img/4.4-voice.jpg)
+
+* 差分包
+
+  | 语言 | 文件名                                            | 大小         |
+  |----|------------------------------------------------|------------|
+  | /  | `game_4.3.0_4.4.0_hdiff_HRCcTyjpAfhD9wq0.zip`  | 7.61 GiB   |
+  | zh | `zh-cn_4.3.0_4.4.0_hdiff_nPgctCRfjFYIT9bN.zip` | 368.08 MiB |
+  | en | `en-us_4.3.0_4.4.0_hdiff_dDYOZ2umezWJqjNr.zip` | 476.03 MiB |
+  | ja | `ja-jp_4.3.0_4.4.0_hdiff_98p3ekZjdPlqbUMt.zip` | 439.98 MiB |
+  | ko | `ko-kr_4.3.0_4.4.0_hdiff_Y2rdoEUnObK18wlP.zip` | 353.10 MiB |
 
 ### 4.3
 
