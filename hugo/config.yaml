@@ -15,7 +15,7 @@ title: "酷玛阁 | KumaTea's Blog"
 #    weight: 2
 
 # Change it to your Disqus shortname before using
-# disqusShortname: kumatea
+disqusShortname: kumatea
 
 # GA Tracking ID
 googleAnalytics: G-P86D5805EG
@@ -70,21 +70,30 @@ params:
 
   comments:
       enabled: true
-      provider: giscus
+      provider: disqus
 
-      giscus:
-          repo: KumaTea/blog
-          repoID: R_kgDOHa9iHQ
-          category: Q&A
-          categoryID: DIC_kwDOHa9iHc4CXYZJ
-          mapping: pathname
-          strict: 1
-          lightTheme: preferred_color_scheme
-          darkTheme: preferred_color_scheme
-          reactionsEnabled: 1
-          emitMetadata: 0
-          inputPosition: top
-          lang: zh-CN
+      disqusjs:
+        shortname:
+        apiUrl:
+        apiKey:
+        admin:
+        adminLabel:
+
+#      provider: giscus
+#
+#      giscus:
+#          repo: KumaTea/blog
+#          repoID: R_kgDOHa9iHQ
+#          category: Q&A
+#          categoryID: DIC_kwDOHa9iHc4CXYZJ
+#          mapping: pathname
+#          strict: 1
+#          lightTheme: preferred_color_scheme
+#          darkTheme: preferred_color_scheme
+#          reactionsEnabled: 1
+#          emitMetadata: 0
+#          inputPosition: top
+#          lang: zh-CN
 
   widgets:
     homepage:
