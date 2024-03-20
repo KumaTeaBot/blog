@@ -11,6 +11,30 @@
 
 ## 4.x
 
+### 4.5
+
+> 该版本开始不配图，懒了
+
+* 游戏数据
+
+  `YuanShen_Data`: 72.87 GB (+ 0.47 GB)
+
+  含语音: 89.55 GB
+
+* 语音
+
+  zh / en / ja / ko: 12.73 / 14.86 / 16.68 / 12.51 GB (+ 300 ~ 500 MB)
+
+* 差分包
+
+  | 语言 | 文件名                                            | 大小         |
+  |----|------------------------------------------------|------------|
+  | /  | `game_4.4.0_4.5.0_hdiff_CIwumTVOpUcZ2tJs.zip`  | 4.84 GiB   |
+  | zh | `zh-cn_4.4.0_4.5.0_hdiff_27Q0jakwKMUm6vqz.zip` | 303.73 MiB |
+  | en | `en-us_4.4.0_4.5.0_hdiff_IT8JaZr3tGK16FVp.zip` | 452.70 MiB |
+  | ja | `ja-jp_4.4.0_4.5.0_hdiff_RZ0dnELT8XCpvM9q.zip` | 366.54 MiB |
+  | ko | `ko-kr_4.4.0_4.5.0_hdiff_J2Ck74hirdXBMTzl.zip` | 299.97 MiB |
+
 ### 4.4
 
 * 游戏数据

@@ -105,7 +105,7 @@ if __name__ == '__main__':
     for pid in posts:
         get_media(pid)
         unzip_media(pid)
-        get_external_media(pid)
+        # get_external_media(pid)
 
     subprocess.run(['rm', '-rvf', temp_path])
     logging.info('[media]\tdone')
