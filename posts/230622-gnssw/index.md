@@ -68,7 +68,7 @@
 > >
 > > 还有一路上看见两三个很可爱的男孩子，直戳xp，就很气，为什么我没长成那个样子 😤
 > >
-> > ![](https://pbs.twimg.com/media/FEZjbE5agAA-4Od.jpg)
+> > ![](ext/01.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFEZjbE5agAA-4Od.jpg)
 
 ### 004
 
@@ -87,7 +87,7 @@
 >
 > 我虽不能苟同，但我男高控也一样吧，不过是追忆逝去的、残缺破败的青春罢了
 >
-> ![](https://pbs.twimg.com/media/FKukjLeakAInYDC.jpg)
+> ![](ext/02.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFKukjLeakAInYDC.jpg)
 
 ### 005
 
@@ -108,7 +108,7 @@
 >
 > 让我再吻一吻你的脸 😘😘😘
 >
-> ![](https://pbs.twimg.com/media/FKwcLJ0aAAU4PlE.jpg)
+> ![](ext/03.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFKwcLJ0aAAU4PlE.jpg)
 
 ### 006
 
@@ -225,7 +225,7 @@
 >
 > 想知道男高的好 🤤
 >
-> ![](https://pbs.twimg.com/media/FMalY6HagAE3fAD.jpg)
+> ![](ext/04.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFMalY6HagAE3fAD.jpg)
 
 ### 014
 
@@ -323,7 +323,7 @@
 >
 > 我的口味很奇特，对不起
 >
-> ![](https://pbs.twimg.com/media/FNP7VH3XIAE26YT.jpg)
+> ![](ext/05.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFNP7VH3XIAE26YT.jpg)
 
 ### 021
 
@@ -353,7 +353,7 @@
 >
 > 这种fw业余学点声乐还有救嘛
 >
-> ![](https://pbs.twimg.com/media/FNnzN4pVkAIY543.png)
+> ![](ext/06.png?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFNnzN4pVkAIY543.png)
 
 ### 023
 
@@ -401,7 +401,7 @@
 >
 > 第一次被男高拉列表！
 >
-> ![](https://pbs.twimg.com/media/FN-WDIAXoAIHqK6.jpg)
+> ![](ext/07.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFN-WDIAXoAIHqK6.jpg)
 
 ### 027
 
@@ -486,7 +486,7 @@
 >
 > 头号声控的自我修养
 >
-> ![](https://pbs.twimg.com/media/FOnfHWYUcAIUHBv.jpg)
+> ![](ext/08.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFOnfHWYUcAIUHBv.jpg)
 
 ### 032
 
@@ -580,7 +580,7 @@
 >
 > 想牵着手蹭蹭脸蛋，躺在草坪上晒太阳
 >
-> ![](https://pbs.twimg.com/media/FRJ9oWKakAAst8P.jpg)
+> ![](ext/09.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFRJ9oWKakAAst8P.jpg)
 
 ### 038
 
@@ -593,7 +593,7 @@
 >
 > 过于下体的发言倒转了
 >
-> ![](https://pbs.twimg.com/media/FRPSylaaQAAW_h0.jpg)
+> ![](ext/10.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFRPSylaaQAAW_h0.jpg)
 
 ### 039
 
@@ -803,7 +803,7 @@
 >
 > 今日 emo 一刻
 >
-> ![](https://pbs.twimg.com/media/FzePWLBaEAEoP7M.jpg)
+> ![](ext/11.jpg?src=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFzePWLBaEAEoP7M.jpg)
 
 ### 055
 
