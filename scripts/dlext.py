@@ -7,7 +7,6 @@ import requests
 from tqdm import tqdm
 from data import posts
 from media import get_content_type
-from urllib.parse import quote_plus
 
 
 pwd = r'D:\GitHub\blog'
@@ -77,7 +76,7 @@ def dl_ext_media(post_id):
             # replace media url
             for i, line in enumerate(lines):
                 if media_url in line:
-                    lines[i] = line.replace(media_url, f'ext/{media_filename}?src={quote_plus(media_url)}')
+                    lines[i] = line.replace(media_url, f'ext/{media_filename} "{media_url}"')
 
             media_id += 1
             # logging.info(f'[media]\texternal {media_url} downloaded')
