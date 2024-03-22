@@ -59,14 +59,14 @@ def set_about_info():
 
 def add_metadata_to_post(post_path):
     if os.path.isfile(os.path.join(posts_path, post_path, 'meta.md')):
-        with open(os.path.join(posts_path, post_path, 'index.md')) as f:
+        with open(os.path.join(posts_path, post_path, 'index.md'), 'r', encoding='utf-8') as f:
             post_text = f.read()
-        with open(os.path.join(posts_path, post_path, 'meta.md')) as f:
+        with open(os.path.join(posts_path, post_path, 'meta.md'), 'r', encoding='utf-8') as f:
             meta_text = f.read()
         while meta_text.endswith('\n'):
             meta_text = meta_text[:-1]
         post_text = meta_text + '\n\n' + post_text
-        with open(os.path.join(posts_path, post_path, 'index.md'), 'w') as f:
+        with open(os.path.join(posts_path, post_path, 'index.md'), 'w', encoding='utf-8') as f:
             f.write(post_text)
         return logging.info(f'[meta]\t{post_path} add metadata')
     else:
