@@ -8,8 +8,55 @@
 * 里程碑：
   * 整体突破70GB: [4.0](#40)
   * 本体突破70GB: [4.4](#44)
+  * 首次降低体积: [4.6](#46)
 
 ## 4.x
+
+### 4.7
+
+* 游戏数据
+
+  `YuanShen_Data`: 59.95 GB (+ 2.24 GB)
+
+  含语音: 77.84 GB
+
+* 语音
+
+  zh / en / ja / ko: 13.65 / 15.94 / 17.90 / 13.40 GB (+ 0 ~ 100 MB)
+
+* 差分包
+
+  | 语言 | 文件名                                            | 大小         |
+  |----|------------------------------------------------|------------|
+  | /  | `game_4.6.0_4.7.0_hdiff_xrMCwjTting6IubX.zip`  | 24.36 GiB  |
+  | zh | `zh-cn_4.6.0_4.7.0_hdiff_mRiPScjVzsZHlx1u.zip` | 513.59 MiB |
+  | en | `en-us_4.6.0_4.7.0_hdiff_PeQspaEOWljGHcbS.zip` | 607.33 MiB |
+  | ja | `ja-jp_4.6.0_4.7.0_hdiff_rLT1nMcAam4wgqxe.zip` | 579.81 MiB |
+  | ko | `ko-kr_4.6.0_4.7.0_hdiff_ck7wjJfSXVi1svAb.zip` | 458.70 MiB |
+
+### 4.6
+
+> 该版本数据丢失，数值为估算
+
+* 游戏数据
+
+  `YuanShen_Data`: 57.71 GB (- 15.16 GB)
+
+  含语音: 75.60 GB
+
+* 语音
+
+  zh / en / ja / ko: 13.65 / 15.96 / 17.88 / 13.41 GB (+ 900 ~ 1200 MB)
+
+* 差分包
+
+  | 语言 | 文件名                                            | 大小         |
+  |----|------------------------------------------------|------------|
+  | /  | `game_4.5.0_4.6.0_hdiff_kiOtCmQKDxTEojvz.zip`  | 28.42 GiB  |
+  | zh | `zh-cn_4.5.0_4.6.0_hdiff_2a7jHyNe6YWsM3Ob.zip` | 306.68 MiB |
+  | en | `en-us_4.5.0_4.6.0_hdiff_zY5rUsWHTdvLp76g.zip` | 399.28 MiB |
+  | ja | `ja-jp_4.5.0_4.6.0_hdiff_Vq30AS1O9cWPbQHt.zip` | 338.69 MiB |
+  | ko | `ko-kr_4.5.0_4.6.0_hdiff_DBGoIMRpaQvgleCc.zip` | 273.97 MiB |
 
 ### 4.5
 
